@@ -14,6 +14,7 @@
 		72EB017922CAFB5B00973F48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EB017722CAFB5B00973F48 /* LaunchScreen.storyboard */; };
 		72EB018422CAFB5B00973F48 /* CICDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB018322CAFB5B00973F48 /* CICDTestTests.swift */; };
 		72EB018F22CAFB5B00973F48 /* CICDTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB018E22CAFB5B00973F48 /* CICDTestUITests.swift */; };
+		72EB019E22CB11B100973F48 /* appcenter-pre-build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 72EB019D22CB11B100973F48 /* appcenter-pre-build.sh */; };
 		8E400C54676F760A7000F143 /* Pods_CICDTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD2B0D3D93323E661D6F4CE /* Pods_CICDTestTests.framework */; };
 		F4F3A4F25557B6F09D769D3E /* Pods_CICDTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CF5C8CB1183BD02038B986 /* Pods_CICDTestUITests.framework */; };
 		FE950371026CDEE0DEE9052B /* Pods_CICDTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F47F60CE6386AEF3BEFB7B /* Pods_CICDTest.framework */; };
@@ -55,6 +56,7 @@
 		72EB018A22CAFB5B00973F48 /* CICDTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EB018E22CAFB5B00973F48 /* CICDTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDTestUITests.swift; sourceTree = "<group>"; };
 		72EB019022CAFB5B00973F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72EB019D22CB11B100973F48 /* appcenter-pre-build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "appcenter-pre-build.sh"; sourceTree = "<group>"; };
 		8ECB6291637D1C250AE34A5B /* Pods-CICDTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CICDTest/Pods-CICDTest.release.xcconfig"; sourceTree = "<group>"; };
 		8F6C5EDAF061275748AD729F /* Pods-CICDTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CICDTest/Pods-CICDTest.debug.xcconfig"; sourceTree = "<group>"; };
 		A4B10C44C8611A05B365B479 /* Pods-CICDTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CICDTestTests/Pods-CICDTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		72EB016222CAFB5800973F48 = {
 			isa = PBXGroup;
 			children = (
+				72EB019C22CB11A100973F48 /* Settings */,
 				72EB016D22CAFB5800973F48 /* CICDTest */,
 				72EB018222CAFB5B00973F48 /* CICDTestTests */,
 				72EB018D22CAFB5B00973F48 /* CICDTestUITests */,
@@ -150,6 +153,14 @@
 				72EB019022CAFB5B00973F48 /* Info.plist */,
 			);
 			path = CICDTestUITests;
+			sourceTree = "<group>";
+		};
+		72EB019C22CB11A100973F48 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				72EB019D22CB11B100973F48 /* appcenter-pre-build.sh */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		B015D03049D9571EF0F15F1A /* Pods */ = {
@@ -274,6 +285,7 @@
 			files = (
 				72EB017922CAFB5B00973F48 /* LaunchScreen.storyboard in Resources */,
 				72EB017622CAFB5B00973F48 /* Assets.xcassets in Resources */,
+				72EB019E22CB11B100973F48 /* appcenter-pre-build.sh in Resources */,
 				72EB017422CAFB5800973F48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
