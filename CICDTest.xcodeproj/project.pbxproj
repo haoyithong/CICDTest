@@ -506,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F421E5AEDB34D337A541B338 /* Pods-CICDTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HNASAFU2S;
@@ -525,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBF5536BB3A82F50B678971A /* Pods-CICDTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HNASAFU2S;
