@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import AppCenter
-import AppCenterAnalytics
-import AppCenterCrashes
+//import AppCenter
+//import AppCenterAnalytics
+//import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,10 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        MSAppCenter.start("a84de9ff-f2dc-43a0-a6df-38586ee6dc39", withServices:[
-            MSAnalytics.self,
-            MSCrashes.self
-            ])
+//        MSAppCenter.start("a84de9ff-f2dc-43a0-a6df-38586ee6dc39", withServices:[
+//            MSAnalytics.self,
+//            MSCrashes.self
+//            ])
 
         return true
     }
