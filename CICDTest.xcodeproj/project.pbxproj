@@ -557,6 +557,7 @@
 		};
 		72EB019722CAFB5B00973F48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6C5EDAF061275748AD729F /* Pods-CICDTest.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -578,6 +579,7 @@
 		};
 		72EB019822CAFB5B00973F48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECB6291637D1C250AE34A5B /* Pods-CICDTest.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -599,6 +601,7 @@
 		};
 		72EB019A22CAFB5B00973F48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6C5EDAF061275748AD729F /* Pods-CICDTest.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -619,6 +622,7 @@
 		};
 		72EB019B22CAFB5B00973F48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECB6291637D1C250AE34A5B /* Pods-CICDTest.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
