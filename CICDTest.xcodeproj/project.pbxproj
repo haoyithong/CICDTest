@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5552F1FEAEC487E119244CAD /* Pods_CICDTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F6108A7F85D2DD577BCB5D /* Pods_CICDTest.framework */; };
-		72E8A589234F1608001F73DA /* ek-notification-ios in Frameworks */ = {isa = PBXBuildFile; productRef = 72E8A588234F1608001F73DA /* ek-notification-ios */; };
+		72E8A58C234F3268001F73DA /* ek-notification-ios in Frameworks */ = {isa = PBXBuildFile; productRef = 72E8A58B234F3268001F73DA /* ek-notification-ios */; };
 		72EB016F22CAFB5800973F48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB016E22CAFB5800973F48 /* AppDelegate.swift */; };
 		72EB017122CAFB5800973F48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB017022CAFB5800973F48 /* ViewController.swift */; };
 		72EB017422CAFB5800973F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EB017222CAFB5800973F48 /* Main.storyboard */; };
@@ -17,6 +17,7 @@
 		72EB018422CAFB5B00973F48 /* CICDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB018322CAFB5B00973F48 /* CICDTestTests.swift */; };
 		72EB018F22CAFB5B00973F48 /* CICDTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EB018E22CAFB5B00973F48 /* CICDTestUITests.swift */; };
 		72EB019E22CB11B100973F48 /* appcenter-pre-build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 72EB019D22CB11B100973F48 /* appcenter-pre-build.sh */; };
+		97D68AAF0962E90F70EDFF69 /* Pods_CICDTest_Tests_CICDTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F6889672F1DADBB3F1DC4B /* Pods_CICDTest_Tests_CICDTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		37CF5C8CB1183BD02038B986 /* Pods_CICDTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CICDTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD2B0D3D93323E661D6F4CE /* Pods_CICDTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CICDTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AD5475323DB0FFC2A57006 /* Pods-CICDTest-Tests-CICDTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDTest-Tests-CICDTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CICDTest-Tests-CICDTestTests/Pods-CICDTest-Tests-CICDTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		72EB016B22CAFB5800973F48 /* CICDTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CICDTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EB016E22CAFB5800973F48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72EB017022CAFB5800973F48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +57,9 @@
 		72EB019D22CB11B100973F48 /* appcenter-pre-build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "appcenter-pre-build.sh"; sourceTree = "<group>"; };
 		A7F6108A7F85D2DD577BCB5D /* Pods_CICDTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CICDTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF5536BB3A82F50B678971A /* Pods-CICDTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CICDTest/Pods-CICDTest.release.xcconfig"; sourceTree = "<group>"; };
+		D5FDBA3CE0252894EDE81CDD /* Pods-CICDTest-Tests-CICDTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDTest-Tests-CICDTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CICDTest-Tests-CICDTestTests/Pods-CICDTest-Tests-CICDTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F421E5AEDB34D337A541B338 /* Pods-CICDTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CICDTest/Pods-CICDTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F6F6889672F1DADBB3F1DC4B /* Pods_CICDTest_Tests_CICDTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CICDTest_Tests_CICDTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5552F1FEAEC487E119244CAD /* Pods_CICDTest.framework in Frameworks */,
-				72E8A589234F1608001F73DA /* ek-notification-ios in Frameworks */,
+				72E8A58C234F3268001F73DA /* ek-notification-ios in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D68AAF0962E90F70EDFF69 /* Pods_CICDTest_Tests_CICDTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,7 @@
 				3BD2B0D3D93323E661D6F4CE /* Pods_CICDTestTests.framework */,
 				37CF5C8CB1183BD02038B986 /* Pods_CICDTestUITests.framework */,
 				A7F6108A7F85D2DD577BCB5D /* Pods_CICDTest.framework */,
+				F6F6889672F1DADBB3F1DC4B /* Pods_CICDTest_Tests_CICDTestTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,6 +168,8 @@
 			children = (
 				F421E5AEDB34D337A541B338 /* Pods-CICDTest.debug.xcconfig */,
 				CBF5536BB3A82F50B678971A /* Pods-CICDTest.release.xcconfig */,
+				D5FDBA3CE0252894EDE81CDD /* Pods-CICDTest-Tests-CICDTestTests.debug.xcconfig */,
+				55AD5475323DB0FFC2A57006 /* Pods-CICDTest-Tests-CICDTestTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -177,6 +185,8 @@
 				72EB016722CAFB5800973F48 /* Sources */,
 				72EB016822CAFB5800973F48 /* Frameworks */,
 				72EB016922CAFB5800973F48 /* Resources */,
+				A289BB68E6251A8A7272E0D2 /* [CP] Embed Pods Frameworks */,
+				7F3920A8ADD80443D80DC398 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,7 +194,7 @@
 			);
 			name = CICDTest;
 			packageProductDependencies = (
-				72E8A588234F1608001F73DA /* ek-notification-ios */,
+				72E8A58B234F3268001F73DA /* ek-notification-ios */,
 			);
 			productName = CICDTest;
 			productReference = 72EB016B22CAFB5800973F48 /* CICDTest.app */;
@@ -194,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72EB019622CAFB5B00973F48 /* Build configuration list for PBXNativeTarget "CICDTestTests" */;
 			buildPhases = (
+				AE263E92D6599703A797599E /* [CP] Check Pods Manifest.lock */,
 				72EB017B22CAFB5B00973F48 /* Sources */,
 				72EB017C22CAFB5B00973F48 /* Frameworks */,
 				72EB017D22CAFB5B00973F48 /* Resources */,
+				F84D5331584B496B75F96E70 /* [CP] Embed Pods Frameworks */,
+				85D2A02E25BC600ECDFA5435 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,7 +272,7 @@
 			);
 			mainGroup = 72EB016222CAFB5800973F48;
 			packageReferences = (
-				72E8A587234F1608001F73DA /* XCRemoteSwiftPackageReference "ek-notification-ios" */,
+				72E8A58A234F3268001F73DA /* XCRemoteSwiftPackageReference "ek-notification-ios" */,
 			);
 			productRefGroup = 72EB016C22CAFB5800973F48 /* Products */;
 			projectDirPath = "";
@@ -321,6 +334,194 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F3920A8ADD80443D80DC398 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CICDTest/Pods-CICDTest-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CICDTest/Pods-CICDTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85D2A02E25BC600ECDFA5435 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CICDTest-Tests-CICDTestTests/Pods-CICDTest-Tests-CICDTestTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CICDTest-Tests-CICDTestTests/Pods-CICDTest-Tests-CICDTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A289BB68E6251A8A7272E0D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CICDTest/Pods-CICDTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JTMaterialSpinner/JTMaterialSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/OAStackView/OAStackView.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftRangeSlider/SwiftRangeSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTMaterialSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAStackView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRangeSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagListView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CICDTest/Pods-CICDTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE263E92D6599703A797599E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CICDTest-Tests-CICDTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F84D5331584B496B75F96E70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CICDTest-Tests-CICDTestTests/Pods-CICDTest-Tests-CICDTestTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JTMaterialSpinner/JTMaterialSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/OAStackView/OAStackView.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftRangeSlider/SwiftRangeSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTMaterialSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAStackView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRangeSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagListView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CICDTest-Tests-CICDTestTests/Pods-CICDTest-Tests-CICDTestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -544,6 +745,7 @@
 		};
 		72EB019722CAFB5B00973F48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FDBA3CE0252894EDE81CDD /* Pods-CICDTest-Tests-CICDTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -565,6 +767,7 @@
 		};
 		72EB019822CAFB5B00973F48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55AD5475323DB0FFC2A57006 /* Pods-CICDTest-Tests-CICDTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -666,7 +869,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		72E8A587234F1608001F73DA /* XCRemoteSwiftPackageReference "ek-notification-ios" */ = {
+		72E8A58A234F3268001F73DA /* XCRemoteSwiftPackageReference "ek-notification-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://hythong:haoyi5649@bitbucket.org/ekgmt/ek-notification-ios.git";
 			requirement = {
@@ -677,9 +880,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		72E8A588234F1608001F73DA /* ek-notification-ios */ = {
+		72E8A58B234F3268001F73DA /* ek-notification-ios */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 72E8A587234F1608001F73DA /* XCRemoteSwiftPackageReference "ek-notification-ios" */;
+			package = 72E8A58A234F3268001F73DA /* XCRemoteSwiftPackageReference "ek-notification-ios" */;
 			productName = "ek-notification-ios";
 		};
 /* End XCSwiftPackageProductDependency section */

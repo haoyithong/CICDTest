@@ -22,7 +22,7 @@ def available_pods
   pod 'Socket.IO-Client-Swift', '~> 14.0.0'
   pod 'Firebase/Messaging'
   pod 'SwiftGen'
-  pod 'EKNotifier', '~> 0.2.2'
+#  pod 'EKNotifier', '~> 0.2.2'
   pod 'Sentry', :git => 'https://github.com/getsentry/sentry-cocoa.git', :tag => '4.3.1'
 end
 
