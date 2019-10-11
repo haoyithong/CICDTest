@@ -1,6 +1,9 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
+#source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://hythong:haoyi5649:@bitbucket.org/ekgmt/ekpods.git'
+
 def available_pods
   pod 'Alamofire', '~> 4.7'
   pod 'AlamofireImage', '~> 3.3'
@@ -22,7 +25,7 @@ def available_pods
   pod 'Socket.IO-Client-Swift', '~> 14.0.0'
   pod 'Firebase/Messaging'
   pod 'SwiftGen'
-#  pod 'EKNotifier', '~> 0.2.2'
+  pod 'EKNotifier', :git => 'https://hythong:haoyi5649@bitbucket.org/ekgmt/ek-notifier-ios.git', :branch => '0.2.2'
   pod 'Sentry', :git => 'https://github.com/getsentry/sentry-cocoa.git', :tag => '4.3.1'
 end
 
